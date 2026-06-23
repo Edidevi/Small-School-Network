@@ -19,15 +19,15 @@ The link was now up between the two.
 
 The next step was to create the virtual interfaces. I established the VLANs and the corresponding layer 3 interfaces on the switches.
 
-| VLAN Name        | IP Range                   | VLAN ID  | Default gateway  |
-|------------------|----------------------------|----------|------------------|
-| Management VLAN  | 10.10.0.0 - 10.10.255.255  | 10       | 10.10.255.253    |
-| Server VLAN      | 10.20.0.0 - 10.20.0.255    | 20       | 10.20.0.253      |
-| Student VLAN     | 10.30.0.0 - 10.30.255.255  | 30       | 10.20.255.253    |
-| Staff WiFi VLAN  | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.253      |
-| Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.253      |
-| Printers VLAN    | 10.60.0.0 - 10.60.0.255    | 60       | 10.60.0.253      |
-| Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.255.253    |
-| Security VLAN    | 10.80.0.0 - 10.80.0.255    | 80       | 10.80.0.253      |
+| VLAN Name        | IP Range                   | VLAN ID  | Default gateway (SVI) |
+|------------------|----------------------------|----------|-----------------------|
+| Management VLAN  | 10.10.0.0 - 10.10.255.255  | 10       | 10.10.255.1           |
+| Server VLAN      | 10.20.0.0 - 10.20.0.255    | 20       | 10.20.0.1             |
+| Student VLAN     | 10.30.0.0 - 10.30.255.255  | 30       | 10.20.255.1           |
+| Staff WiFi VLAN  | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.1             |
+| Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.1             |
+| Printers VLAN    | 10.60.0.0 - 10.60.0.255    | 60       | 10.60.0.1             |
+| Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.255.1           |
+| Security VLAN    | 10.80.0.0 - 10.80.0.255    | 80       | 10.80.0.1             |
 
 
