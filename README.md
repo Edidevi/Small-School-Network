@@ -11,3 +11,5 @@ Wanyted to build a small school network. Have memories of secondary and wanted t
 Portchanell for both was down, but it is because no ip address was assigned to both. So I went back and assigned the appropriate ip address.
 
 I employed etherchannel between the cores for redundancy.If one cable fails, it wont affect the connection, as many cables are contributing to one link
+
+<img width="506" height="268" alt="image" src="https://github.com/user-attachments/assets/1b946f90-b135-4c78-9782-3dd3e1b5659b" />
