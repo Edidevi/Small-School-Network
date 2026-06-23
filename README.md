@@ -10,10 +10,24 @@ I first started with the 2 core layer 3 switches. I wanted to set up an ethercha
 
 I set up 5 wired connections between the two.
 I used the `interface range` command to configure the connections together. I then used `no switchport` to disable  layer 2 routing and used `channel-group 1 mode active` to turn connection to LACP etherchannel called channel 1.
-<img width="350" height="100" alt="image" src="https://github.com/user-attachments/assets/7b1fe841-c765-498d-81cc-edbad1eb2652" />
 
 I did this for both sides of the etherchannel connection. Port-channel on both sides was still down, so i assigned the correct ip address `10.10.0.254` to the interfaces, then typed `no shutdown` on the physical interface range.
 The link was now up between the two.
 
-The next step was to create the virtual interfaces. I established the VLANs on the switches.
-<img width="371" height="150" alt="image" src="https://github.com/user-attachments/assets/dfafa7f8-5086-42c1-8e8c-f4f843a03db8" />
+<img width="451" height="157" alt="image" src="https://github.com/user-attachments/assets/1e5abb4d-8d54-4708-baa8-60aad776172a" />
+
+
+The next step was to create the virtual interfaces. I established the VLANs and the corresponding layer 3 interfaces on the switches.
+
+| VLAN Name        | IP Range                   | VLAN ID  | Default gateway  |
+|------------------|----------------------------|----------|------------------|
+| Management VLAN  | 10.10.0.0 - 10.10.255.255  | 10       | 10.10.255.253    |
+| Server VLAN      | 10.20.0.0 - 10.20.0.255    | 20       | 10.20.0.253      |
+| Student VLAN     | 10.30.0.0 - 10.30.255.255  | 30       | 10.20.255.253    |
+| Staff WiFi VLAN  | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.253      |
+| Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.253      |
+| Printers VLAN    | 10.60.0.0 - 10.60.0.255    | 60       | 10.60.0.253      |
+| Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.255.253    |
+| Security VLAN    | 10.80.0.0 - 10.80.0.255    | 80       | 10.80.0.253      |
+
+
