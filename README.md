@@ -2,7 +2,8 @@
 
 Wanted to build a small school network. Have memories of secondary and wanted to visualise the network layout I think it would have.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/131e5889-8501-4f01-b19a-4c1c162b4cc4" />
+<img width="437" height="381" alt="image" src="https://github.com/user-attachments/assets/566a4ab4-6c5a-4354-91fc-a808e3c9c413" />
+
 
 I first started with the 2 core layer 3 switches. I wanted to set up an etherchannel between them as they will serve as the core of the network. To implement redundancy.
 
