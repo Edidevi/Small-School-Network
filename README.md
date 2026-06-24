@@ -45,6 +45,11 @@ Ip configuration would have neen too tedious to do by hand, so introduced server
 <img width="1015" height="785" alt="image" src="https://github.com/user-attachments/assets/0920744f-01f9-4b36-80eb-b8722f6b226e" />
 
 
+<img width="748" height="512" alt="image" src="https://github.com/user-attachments/assets/b4416e33-c01b-415d-ad68-389c560b2851" />
+
+<img width="620" height="232" alt="image" src="https://github.com/user-attachments/assets/654e5f30-45d5-4359-9353-5afdba3e387f" />
+
+
 
 
 
