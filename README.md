@@ -4,8 +4,9 @@ Wanted to build a small school network. Have memories of secondary and wanted to
 
 <img width="437" height="381" alt="image" src="https://github.com/user-attachments/assets/566a4ab4-6c5a-4354-91fc-a808e3c9c413" />
 
+I decided to move to cisco devnet sandbox. THis type of implementation would be too tedious to do by hand. It omnly makes sense to replace manual work with automation when needed.
 
-I first started with the 2 core layer 3 switches. I wanted to set up an etherchannel between them as they will serve as the core of the network. To implement redundancy.
+
 
 <img width="750" height="273" alt="image" src="https://github.com/user-attachments/assets/2d5e1561-a22b-4e5d-a395-95d55c2b27b3" />
 
@@ -31,9 +32,6 @@ The next step was to create the virtual interfaces. I established the VLANs and 
 | Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.0.1             | /16  |
 | Security VLAN    | 10.80.0.0 - 10.80.0.255    | 80       | 10.80.0.1             | /24  |
 
-
-<img width="542" height="142" alt="image" src="https://github.com/user-attachments/assets/6c471ff0-bc3e-4277-8666-10048247ea9b" />
-
 Ran into issue, i could not make the etherchannel ip so similair to the ip for the svi, so i went back and made the etherchanell layer 2.
 
 I tied to do it to portchaneeel, but ti dodn nto work,
@@ -41,4 +39,13 @@ I tied to do it to portchaneeel, but ti dodn nto work,
 so removed the port channel and recreated it, but as a layer 2 etherchannel, not layer 3
 
 Then enbaled each VLan as svi interface with correspomdng ips and enabled ip routing on both
+
+Ip configuration would have neen too tedious to do by hand, so introduced server for automation.
+
+<img width="1015" height="785" alt="image" src="https://github.com/user-attachments/assets/0920744f-01f9-4b36-80eb-b8722f6b226e" />
+
+
+
+
+
 
