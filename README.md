@@ -1,4 +1,4 @@
-# Small-School-Network
+# Nursery-Network
 
 Wanted to build a small school network. Have memories of secondary and wanted to visualise the network layout I think it would have.
 
@@ -48,6 +48,11 @@ Ip configuration would have neen too tedious to do by hand, so introduced server
 <img width="748" height="512" alt="image" src="https://github.com/user-attachments/assets/b4416e33-c01b-415d-ad68-389c560b2851" />
 
 <img width="620" height="232" alt="image" src="https://github.com/user-attachments/assets/654e5f30-45d5-4359-9353-5afdba3e387f" />
+
+<img width="960" height="401" alt="image" src="https://github.com/user-attachments/assets/07ce9905-e787-4634-b523-632a6ee183d2" />
+
+
+<img width="823" height="662" alt="image" src="https://github.com/user-attachments/assets/77ef8f5d-a0a3-41c0-9933-7c9dd2397e35" />
 
 
 
