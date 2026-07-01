@@ -66,3 +66,12 @@ Chose the specific WLC as it had multiple orts, allowing me ti impleemnt wireles
 
 Connected main switch, main ap, backup switch and backup ap all together.
 THen i needed to confiure the etherchannels then move toward setting uo the wireless lan and its corresponding aps.
+
+
+
+
+
+wanted to use same wlc for computer suite, but due to amount of computers want computer to have uts own deducatwd wlanThat's a good design decision, and it's one that many schools actually use.
+
+A computer suite has many more devices, higher bandwidth demand, and different security requirements than reception, so giving it its own WLAN makes sense.
+
