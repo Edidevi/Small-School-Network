@@ -58,4 +58,11 @@ Ip configuration would have neen too tedious to do by hand, so introduced server
 
 <img width="1550" height="696" alt="image" src="https://github.com/user-attachments/assets/69a76faf-1516-4baa-a7f4-b5715e4669e1" />
 
+I then set up an ap and a backup ap for the recpetion. Backup ap would be connected to the backup switch. I turned of ap, so if one ap is not working,  the switch can be connected to the other ap.
 
+<img width="1260" height="602" alt="image" src="https://github.com/user-attachments/assets/c61645e6-b96c-4b25-8fd5-4f84fcda58a6" />
+
+Chose the specific WLC as it had multiple orts, allowing me ti impleemnt wireles resiliency.
+
+Connected main switch, main ap, backup switch and backup ap all together.
+THen i needed to confiure the etherchannels then move toward setting uo the wireless lan and its corresponding aps.
