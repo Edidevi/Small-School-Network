@@ -67,6 +67,12 @@ Chose the specific WLC as it had multiple orts, allowing me ti impleemnt wireles
 Connected main switch, main ap, backup switch and backup ap all together.
 THen i needed to confiure the etherchannels then move toward setting uo the wireless lan and its corresponding aps.
 
+Set up Wirleess contorllers, i wanted to have a centralised wireless lan contorller (WLC) with many different aps around the area, to extend the service range
+
+<img width="1393" height="748" alt="image" src="https://github.com/user-attachments/assets/5f9763a5-9b59-40ba-bbf8-92976d5e2f1a" />
+
+
+
 
 
 
@@ -75,3 +81,4 @@ wanted to use same wlc for computer suite, but due to amount of computers want c
 
 A computer suite has many more devices, higher bandwidth demand, and different security requirements than reception, so giving it its own WLAN makes sense.
 
+Before this, needed to sort out etherchannle between switch and wlan, for redundancy reasons.
