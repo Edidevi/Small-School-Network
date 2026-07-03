@@ -69,7 +69,6 @@ THen i needed to confiure the etherchannels then move toward setting uo the wire
 
 Set up Wirleess contorllers, i wanted to have a centralised wireless lan contorller (WLC) with many different aps around the area, to extend the service range
 
-<img width="1393" height="748" alt="image" src="https://github.com/user-attachments/assets/5f9763a5-9b59-40ba-bbf8-92976d5e2f1a" />
 
 
 
@@ -82,3 +81,33 @@ wanted to use same wlc for computer suite, but due to amount of computers want c
 A computer suite has many more devices, higher bandwidth demand, and different security requirements than reception, so giving it its own WLAN makes sense.
 
 Before this, needed to sort out etherchannle between switch and wlan, for redundancy reasons.
+To do thi, have to edit wlc by PC
+
+First assigned wlc management and PC ips in the management subnet
+
+Brought pc into enviormnet , assigned ip in same subent as wlc, then used pc web browser to reach wlc
+<img width="1881" height="713" alt="image" src="https://github.com/user-attachments/assets/e929aa7c-e7a9-4974-9626-f750908904da" />
+
+
+<img width="1020" height="518" alt="image" src="https://github.com/user-attachments/assets/25c48aee-8136-4cb1-9058-9a08007cd431" />
+Logged in, creating id and password, then asinged correct detiales, aswell as using the SVI vlan 10 as the default gateway.
+
+i then created the guest and employee networks. 
+'
+<img width="622" height="453" alt="image" src="https://github.com/user-attachments/assets/45d6edaa-7afc-4b46-aa1e-ef45c14c50ec" />
+
+
+
+
+
+Chathamwireless
+Chatham1*
+
+Staff wifi
+
+Securesenior1*
+
+
+<img width="705" height="507" alt="image" src="https://github.com/user-attachments/assets/d5db22e3-bda4-44bd-8316-516f080579da" />
+
+
