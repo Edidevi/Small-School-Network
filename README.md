@@ -110,5 +110,18 @@ Securesenior1*
 
 <img width="705" height="507" alt="image" src="https://github.com/user-attachments/assets/d5db22e3-bda4-44bd-8316-516f080579da" />
 
+After set up, i could no longer ping the wlc, i realised that i had palced staff wifi and management ip on vlan 10, so i needed to make the ports access ports and tag them accordingly
+
 <img width="911" height="617" alt="image" src="https://github.com/user-attachments/assets/d78a24df-93df-45fb-8a05-d5b3e03e2f2d" />
+
+After setting up, wanted to put aps, next to smartphone. I was inspired by mi girfirend, she works in health and she said in the hospital they had cisco phones. It allows the recpetionist to answer calls and not always be desk bound, through roaming via the many aps in the network.
+
+<img width="492" height="212" alt="image" src="https://github.com/user-attachments/assets/ff51e178-719b-4278-9718-ee9678f2cfab" />
+
+I updated the recpetion topology, to reflect a common recpetion layout, with a sliding window in front of two recpetionists with computers, and a smartphone at the back for them to pick up when one of them wants to leave the desk for some reason, such as event coordination, guiding guests or office supply restocking.
+
+The next thing was the ip addresses, instead of using the  svis for dhcp pooling, the server was the chosen choice for more resiliency.
+<img width="1725" height="897" alt="image" src="https://github.com/user-attachments/assets/9205cdbf-42dc-4278-aa5d-a16d69441f36" />
+
+<img width="847" height="622" alt="image" src="https://github.com/user-attachments/assets/afa6dd7e-2b95-48f9-a328-1f9d49f8b425" />
 
