@@ -135,5 +135,11 @@ learnt that server cna;t be attacjed to trunk. Wont be an issue managing multpli
 
 <img width="822" height="255" alt="image" src="https://github.com/user-attachments/assets/72fbed5e-898f-422b-8507-ca2e0c532dc6" />
 
+LAP wan't turing on, so 
 
+<img width="268" height="132" alt="image" src="https://github.com/user-attachments/assets/e8b91363-1f73-42e9-b035-f2e80f0c548c" />
+
+<img width="606" height="471" alt="image" src="https://github.com/user-attachments/assets/7566ee35-08a0-4355-8119-9e7ffb0cd973" />
+
+had to add a 3560 switch as other switch did not have
 
