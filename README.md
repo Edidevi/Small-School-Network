@@ -129,5 +129,11 @@ The next thing was the ip addresses, instead of using the  svis for dhcp pooling
 
 <img width="738" height="168" alt="image" src="https://github.com/user-attachments/assets/0df9edc8-131a-44ce-b2e2-128e702d9d08" />
 
+learnt that server cna;t be attacjed to trunk. Wont be an issue managing multplie vlans becase of th eip helper command that i configured
+
+<img width="431" height="107" alt="image" src="https://github.com/user-attachments/assets/363e139f-53d9-41a4-9caa-cb7d32532267" />
+
+<img width="822" height="255" alt="image" src="https://github.com/user-attachments/assets/72fbed5e-898f-422b-8507-ca2e0c532dc6" />
+
 
 
