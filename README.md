@@ -125,3 +125,9 @@ The next thing was the ip addresses, instead of using the  svis for dhcp pooling
 
 <img width="847" height="622" alt="image" src="https://github.com/user-attachments/assets/afa6dd7e-2b95-48f9-a328-1f9d49f8b425" />
 
+<img width="507" height="217" alt="image" src="https://github.com/user-attachments/assets/77331d4a-05aa-45ab-afba-001a464b3f50" />
+
+<img width="738" height="168" alt="image" src="https://github.com/user-attachments/assets/0df9edc8-131a-44ce-b2e2-128e702d9d08" />
+
+
+
