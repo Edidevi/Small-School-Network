@@ -143,3 +143,24 @@ LAP wan't turing on, so
 
 had to add a 3560 switch as other switch did not have
 
+<img width="662" height="551" alt="image" src="https://github.com/user-attachments/assets/d5ee901d-86ad-4672-9b1c-b30be728e53d" />
+
+Added power adaptor to ap.
+
+<img width="786" height="190" alt="image" src="https://github.com/user-attachments/assets/cdf68287-27cc-412d-9ec1-d91c1acf9e6e" />
+
+<img width="867" height="627" alt="image" src="https://github.com/user-attachments/assets/04020775-58fc-45d1-b420-fdbbba08f864" />
+
+
+Then need to set up pool for staff wifi
+
+<img width="841" height="626" alt="image" src="https://github.com/user-attachments/assets/a5d3d0ee-5448-4bc9-997f-d00d4b8ea9bd" />
+added the wlc address to pool
+
+Then went bakc to make svi interface 40 to enable ip helper for the server ip
+
+<img width="827" height="245" alt="image" src="https://github.com/user-attachments/assets/d11bda2f-7f05-44d2-bf12-6a9515dcec38" />
+
+I struggled with this concept, i wanted to change the access port for the ap to the stqaff wifi vlan
+
+
