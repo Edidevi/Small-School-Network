@@ -26,7 +26,7 @@ The next step was to create the virtual interfaces. I established the VLANs and 
 | Management VLAN  | 10.10.0.0 - 10.10.255.255  | 10       | 10.10.0.1             | /16  |
 | Server VLAN      | 10.20.0.0 - 10.20.0.255    | 20       | 10.20.0.1             | /24  |
 | Student VLAN     | 10.30.0.0 - 10.30.255.255  | 30       | 10.30.0.1             | /16  |
-| Staff WiFi VLAN  | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.1             | /24  |
+| Reception VLAN   | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.1             | /24  |
 | Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.1             | /16  |
 | Printers VLAN    | 10.60.0.0 - 10.60.0.255    | 60       | 10.60.0.1             | /24  |
 | Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.0.1             | /16  |
