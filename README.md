@@ -163,4 +163,10 @@ Then went bakc to make svi interface 40 to enable ip helper for the server ip
 
 I struggled with this concept, i wanted to change the access port for the ap to the stqaff wifi vlan
 
+<img width="1202" height="556" alt="image" src="https://github.com/user-attachments/assets/6f310949-1109-4a70-9910-88bbaf43860d" />
+
+I then changed interface connected to wlc to native vlan, then ping worked as wlc does not aumotatically tag frames so switch qas dropping them
+
+
+
 
