@@ -180,6 +180,8 @@ THen went back to create all required interfaces
 
 I also noted httat in creating the interfaces, i gave them the first ip of the subnet, so i went back to the dhcp pool to ammend the pooling to start after that.
 
+then i came back and created all corresponding interfaces 
 
+<img width="1212" height="216" alt="image" src="https://github.com/user-attachments/assets/039ff55d-b5b3-485e-8f45-1696d460a828" />
 
-
+Next setp is to create wlans that correspond with the wireless interfaces 
