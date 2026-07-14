@@ -26,10 +26,8 @@ The next step was to create the virtual interfaces. I established the VLANs and 
 | Management VLAN  | 10.10.0.0 - 10.10.255.255  | 10       | 10.10.0.1             | /16  |
 | Server VLAN      | 10.20.0.0 - 10.20.0.255    | 20       | 10.20.0.1             | /24  |
 | Student VLAN     | 10.30.0.0 - 10.30.255.255  | 30       | 10.30.0.1             | /16  |
-| Reception VLAN   | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.1             | /24  |
-| Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.1             | /16  |
-| Printers VLAN    | 10.60.0.0 - 10.60.0.255    | 60       | 10.60.0.1             | /24  |
-| Voice VLAN       | 10.70.0.0 - 10.70.255.255  | 70       | 10.70.0.1             | /16  |
+| Staff VLAN       | 10.40.0.0 - 10.40.0.255    | 40       | 10.40.0.1             | /24  |
+| Guest WiFi VLAN  | 10.50.0.0 - 10.50.0.255    | 50       | 10.50.0.1             | /24  |
 | Security VLAN    | 10.80.0.0 - 10.80.0.255    | 80       | 10.80.0.1             | /24  |
 
 Ran into issue, i could not make the etherchannel ip so similair to the ip for the svi, so i went back and made the etherchanell layer 2.
@@ -167,6 +165,18 @@ I struggled with this concept, i wanted to change the access port for the ap to 
 
 I then changed interface connected to wlc to native vlan, then ping worked as wlc does not aumotatically tag frames so switch qas dropping them
 
+then logged into wlc and started creating interfaces for the sepereate wlans...
+
+
+<img width="677" height="472" alt="image" src="https://github.com/user-attachments/assets/23ad7f0f-c803-4993-bb69-3037dcfa2c86" />
+
+For each vlan i sepcified the following,
+
+For the dhcp server, i realised that had to be set for every interface. I took this as an opportunity to create all the necessary pools and ip helper default gateways for every vlan.
+
+<img width="1738" height="432" alt="image" src="https://github.com/user-attachments/assets/d4cbac46-3926-43d5-8d53-4ada438a75e1" />
+
+THen went back to create all required interfaces
 
 
 
