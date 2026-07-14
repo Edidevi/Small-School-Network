@@ -178,5 +178,8 @@ For the dhcp server, i realised that had to be set for every interface. I took t
 
 THen went back to create all required interfaces
 
+I also noted httat in creating the interfaces, i gave them the first ip of the subnet, so i went back to the dhcp pool to ammend the pooling to start after that.
+
+
 
 
