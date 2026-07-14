@@ -210,6 +210,6 @@ Chathamsecuresecret1*
 The next job was to assign the wlans to the correct interfaces
 <img width="712" height="407" alt="image" src="https://github.com/user-attachments/assets/0d353520-6900-4b8d-9425-c886dba5c6dc" />
 
-
+After doin this, i tried to connet form my computer, but couldnt find it, i realised that i needed to enable the radio elelmbt in order for thr ap and wlac to broadcasst the wlans. But hwy soes this have to be enabled?
 
 
