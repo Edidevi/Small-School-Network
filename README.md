@@ -185,3 +185,18 @@ then i came back and created all corresponding interfaces
 <img width="1212" height="216" alt="image" src="https://github.com/user-attachments/assets/039ff55d-b5b3-485e-8f45-1696d460a828" />
 
 Next setp is to create wlans that correspond with the wireless interfaces 
+
+for the guest wifi, no security pass was needed
+<img width="1006" height="580" alt="image" src="https://github.com/user-attachments/assets/b37e40d9-affa-4a95-9462-353f51657f92" />
+
+<img width="1716" height="692" alt="image" src="https://github.com/user-attachments/assets/2a470ef1-c686-41d6-972a-a46ec0b1c6d4" />
+
+Student
+Studentsecure1*
+
+Next time have a pool so that many different users can have their own individual passwords?
+
+Security
+Securitysafe1*
+
+
