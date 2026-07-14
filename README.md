@@ -207,6 +207,9 @@ Chathamsecuresecret1*
 
 <img width="1382" height="587" alt="image" src="https://github.com/user-attachments/assets/ea742729-2eba-4ab1-a99e-5149ea4109b5" />
 
+The next job was to assign the wlans to the correct interfaces
+<img width="712" height="407" alt="image" src="https://github.com/user-attachments/assets/0d353520-6900-4b8d-9425-c886dba5c6dc" />
+
 
 
 
