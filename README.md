@@ -1,10 +1,10 @@
-# Nursery-Network
+# Small-School-Network
 
-Wanted to build a small school network. Have memories of secondary and wanted to visualise the network layout I think it would have.
+I wanted to build a high school network, I wanted to copy and simulate what the primary school network would have been like.
 
-<img width="437" height="381" alt="image" src="https://github.com/user-attachments/assets/566a4ab4-6c5a-4354-91fc-a808e3c9c413" />
+<img width="252" height="500" align = "left" alt="image" src="https://github.com/user-attachments/assets/66739dac-1723-453d-b7ef-76e80a2e7417" />
 
-I decided to move to cisco devnet sandbox. THis type of implementation would be too tedious to do by hand. It omnly makes sense to replace manual work with automation when needed.
+The data centre in the school contained 4 core switches for layer 2 and 3 routing, and 6 switches. I also had 4 access points, which were wired out of the cable cabinet.
 
 
 
