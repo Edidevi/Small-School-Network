@@ -1,0 +1,16 @@
+title: OsaruEdiae
+description: Network Engineering — hands-on labs exploring enterprise switching, VLAN design, Layer 3 troubleshooting, and more.
+author: Edidevi
+github_username: Edidevi
+
+nav:
+  - label: About
+    url: https://edidevi.github.io/About/
+  - label: Linkedin
+    url: https://www.linkedin.com/in/osaru-e-4011a7192/
+  - label: AWS
+    url: https://edidevi.github.io/Expression-V1/
+
+footer:
+  hosted_on: GitHub Pages
+  hosted_url: https://pages.github.com
