@@ -221,3 +221,15 @@ Hat to revamp, the lap, seemed to have issues broadcasting.
 
 
 <img width="850" height="467" alt="image" src="https://github.com/user-attachments/assets/3cd95775-351d-4b7d-92ee-168ff70cb000" />
+
+After setting up WLC, and AP, could not get the ap to broadcast, so chnaged topology from wlc and ap to standard aps
+
+
+<img width="718" height="422" alt="Screenshot 2026-07-23 161104" src="https://github.com/user-attachments/assets/45fe34e6-56de-4ac7-878e-57d58a9e429b" />
+
+<img width="560" height="332" alt="image" src="https://github.com/user-attachments/assets/044f5cab-5977-404c-94fa-1775abf8860a" />
+
+
+
+
+
