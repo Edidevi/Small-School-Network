@@ -2,7 +2,8 @@
 layout: lab
 title: Small School Network
 description: A full simulation of a high school network built in Cisco Packet Tracer — modelled on a real primary school, covering Layer 2/3 switching, EtherChannel, VLANs, DHCP, wireless LAN controllers, and access points.
-diagram: <img width="1112" height="692" alt="image" src="https://github.com/user-attachments/assets/7f9a2115-46be-436f-941e-c893866af6fc" />
+diagram: https://github.com/user-attachments/assets/7f9a2115-46be-436f-941e-c893866af6fc
+
 
 
 concepts:
