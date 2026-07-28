@@ -502,6 +502,9 @@
       {% if page.hardware %}
       <div class="sidebar-card">
         <div class="sidebar-card-title">🛠️ Hardware Used</div>
+        {% if page.hardware_image %}
+        <img src="{{ page.hardware_image }}" alt="Data centre rack" style="width:100%; border-radius:8px; margin-bottom:1rem; display:block;">
+        {% endif %}
         <ul class="hardware-list">
           {% for item in page.hardware %}
           <li>{{ item }}</li>
