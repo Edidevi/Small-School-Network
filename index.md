@@ -2,9 +2,7 @@
 layout: lab
 title: Small School Network
 description: A full simulation of a high school network built in Cisco Packet Tracer — modelled on a real primary school, covering Layer 2/3 switching, EtherChannel, VLANs, DHCP, wireless LAN controllers, and access points.
-diagram: https://github.com/user-attachments/assets/7f9a2115-46be-436f-941e-c893866af6fc
-
-
+diagram: https://github.com/user-attachments/assets/2d5e1561-a22b-4e5d-a395-95d55c2b27b3
 
 concepts:
   - Layer 2 & Layer 3 Switching
@@ -21,6 +19,8 @@ objective: >
   of a real primary school. The network includes a data centre with core switches, access switches, a wireless
   LAN controller, and access points — covering both wired and wireless connectivity across multiple VLANs
   for staff, students, guests, and security.
+
+hardware_image: https://github.com/user-attachments/assets/66739dac-1723-453d-b7ef-76e80a2e7417
 
 hardware:
   - "4x Core Switches (Layer 2 & Layer 3)"
