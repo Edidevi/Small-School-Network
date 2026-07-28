@@ -33,7 +33,7 @@ hardware:
 questions:
   - q: Why use EtherChannel between the core switches?
     a: > 
-      [Etherchannel implementation the implementation of physical redundancy into the network. In worst case scenario, there would still be enough cables to support data transfer at the physical layer]
+      For physical redundancy. If one wire has an electrical issue, there would still be enough cables to support the network.
 
   - q: Why use a dedicated DHCP server instead of SVIs for pooling?
     a: >
