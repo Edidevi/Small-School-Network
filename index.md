@@ -1,7 +1,7 @@
 ---
 layout: lab
 title: Small School Network
-description: A full simulation of a high school network built in Cisco Packet Tracer — modelled on a real primary school, covering Layer 2/3 switching, EtherChannel, VLANs, DHCP, wireless LAN controllers, and access points.
+description: A full simulation of a  school network built in Cisco Packet Tracer — modelled on a real primary school, covering Layer 2/3 switching, EtherChannel, VLANs, DHCP, wireless LANs and access points.
 diagram: https://github.com/user-attachments/assets/2d5e1561-a22b-4e5d-a395-95d55c2b27b3
 
 concepts:
@@ -10,14 +10,13 @@ concepts:
   - VLAN Design
   - SVI Configuration
   - DHCP Server & IP Helper
-  - Wireless LAN Controller (WLC)
-  - Lightweight Access Points (LAP)
+  - Wireless LAN 
+  - Access Points (LAP)
   - Wireless Resilience
 
 objective: >
   The objective of this lab was to simulate a realistic high school network, inspired by the infrastructure
-  of a real primary school. The network includes a data centre with core switches, access switches, a wireless
-  LAN controller, and access points — covering both wired and wireless connectivity across multiple VLANs
+  of a real primary school. The network includes a data centre with core switches, access switches and access points — covering both wired and wireless connectivity across multiple VLANs
   for staff, students, guests, and security.
 
 hardware_image: https://github.com/user-attachments/assets/66739dac-1723-453d-b7ef-76e80a2e7417
@@ -33,12 +32,8 @@ hardware:
 
 questions:
   - q: Why use EtherChannel between the core switches?
-    a: >
-      [Add your annotation here]
-
-  - q: Why was the EtherChannel changed from Layer 3 to Layer 2?
-    a: >
-      [Add your annotation here]
+    a: > 
+      [Etherchannel implementation the implementation of physical redundancy into the network. In worst case scenario, there would still be enough cables to support data transfer at the physical layer]
 
   - q: Why use a dedicated DHCP server instead of SVIs for pooling?
     a: >
@@ -48,21 +43,11 @@ questions:
     a: >
       [Add your annotation here]
 
-  - q: Why was a centralised WLC chosen over standalone APs?
-    a: >
-      [Add your annotation here]
-
   - q: Why does the computer suite need its own dedicated WLAN?
     a: >
       [Add your annotation here]
 
-  - q: Why does the WLC interface need to be set to native VLAN?
-    a: >
-      [Add your annotation here]
-
-  - q: Why do radio elements need to be manually enabled on the WLC?
-    a: >
-      [Add your annotation here]
+  
 
 steps:
   - title: Network topology overview
